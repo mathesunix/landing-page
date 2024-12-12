@@ -25,11 +25,58 @@ ul {
     padding: 0;
     display: flex;
     gap: 15px;
-    font-size: 18px;
     list-style: none;
 }
 
-a {
+a,
+.hero-text p {
+    margin: 0;
+    font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+    display: flex;
+}
+
+.section1 {
+    padding: 40px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    width: 45%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-text button {
+    margin-top: 10px;
+    padding: 7px 25px;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+}
+
+.image-placeholder {
+    width: 425px;
+    height: 200px;
+    background-color: #7b818a;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
