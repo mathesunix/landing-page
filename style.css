@@ -11,9 +11,13 @@ body {
     align-items: center;
 }
 
+.header,
+.quote {
+    width: 100%;
+}
+
 .header {
     background-color: #1f2937;
-    width: 100%;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -98,13 +102,23 @@ a {
     gap: 30px;
 }
 
-.media-contents {
-    display: flex;
-    justify-content: space-between;
+.media-objects h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900px;
+}
+
+.media-content,
+.quote-content {
     width: 700px;
 }
 
-.media-contents div {
+.media-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-content div {
     width: 140px;
     text-align: center;
 }
@@ -114,4 +128,28 @@ a {
     height: 140px;
     border: solid #3882f6 3px;
     border-radius: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+h4 {
+    margin-top: 10px;
+    align-self: flex-end;
 }
