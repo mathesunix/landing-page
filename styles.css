@@ -5,10 +5,14 @@
     font-family: "Roboto", sans-serif
 }
 
-.first-section {
-    background-color: #1f2937;
+.first-section,
+.second-section {
     display: flex;
     justify-content: center;
+}
+
+.first-section {
+    background-color: #1f2937;
     padding-top: 20px;
 }
 
@@ -80,4 +84,32 @@ a {
     justify-content: center;
     align-items: center;
     background-color: rgb(116, 126, 132);
+}
+
+.second-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.card div {
+    width: 150px;
+    height: 150px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 8px;
 }
