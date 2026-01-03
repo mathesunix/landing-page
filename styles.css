@@ -6,7 +6,8 @@
 }
 
 .first-section,
-.second-section {
+.second-section,
+.third-section {
     display: flex;
     justify-content: center;
 }
@@ -16,7 +17,7 @@
     padding-top: 20px;
 }
 
-.width-delimeter {
+.width-delimiter {
     width: 50%;
 }
 
@@ -113,3 +114,23 @@ a {
     border-style: solid;
     border-radius: 8px;
 }
+
+.third-section {
+    background-color: #e5e7eb;
+    padding: 80px 0;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
